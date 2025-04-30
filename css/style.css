@@ -155,14 +155,32 @@ input[type="password"]:focus {
     outline-color: rgb(92, 151, 245);
 }
 
-
-
-
-
 /* BUTTON SECTION */
 
 .create-account {
+    margin: 2rem 0;
+}
+
+.log-in {
     margin-top: 2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+a {
+    font-weight: 600;
+    color: #4d6480;
+}
+
+button[type="submit"] {
+    padding: 0.6rem 3rem;
+    background-color: #4d6480;
+    border-radius: 0.5rem;
+    border-style: none;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+    box-shadow: 0.15rem 0.15rem 0.4rem rgb(166, 166, 166);
 }
 
 
