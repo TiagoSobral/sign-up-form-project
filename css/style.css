@@ -60,10 +60,17 @@
     display: flex;
     flex-direction: column;
     margin-left: 3rem;
+    min-height: 100vh;
+    background-color: rgba(207, 227, 250, 0.224);
+  }
+
+  form {
+    background-color: white;
   }
 
   fieldset {
     border-style: none;
+
   }
 
 /* FORM DESCRIPTION */
@@ -92,7 +99,8 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 2rem 0; 
+    margin: 1.5rem 0; 
+    padding: 1rem 0;
 }
 
 fieldset.name,
@@ -120,7 +128,7 @@ margin-right: 5rem;
 h1 {
     font-size: 1.4rem;
     font-weight: 600;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 label {
@@ -158,7 +166,7 @@ input[type="password"]:focus {
 /* BUTTON SECTION */
 
 .create-account {
-    margin: 2rem 0;
+    margin: 2rem 0 1rem;
 }
 
 .log-in {
