@@ -59,6 +59,7 @@
   main {
     display: flex;
     flex-direction: column;
+    margin-left: 3rem;
   }
 
   fieldset {
@@ -109,7 +110,7 @@ fieldset.password {
 .confirm-password {
 display:flex;
 flex-direction: column;
-width: 40%;
+width: 26ch;
 margin-bottom: 1rem ;
 margin-right: 5rem;
 }
@@ -125,7 +126,9 @@ h1 {
 }
 
 label {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
 }
 
 
