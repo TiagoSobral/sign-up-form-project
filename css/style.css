@@ -1,3 +1,5 @@
+/* FONT */
+
 @font-face {
     font-family: 'Montserrat';
     src: url('Montserrat-Regular.woff2') format('woff2'),
@@ -48,3 +50,37 @@
   h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
   }
+
+  /* MAIN STYLING  */
+  body{
+    font-family: "Montserrat",sans-serif;
+  }
+
+  fieldset {
+    border-style: none;
+  }
+
+h2 {
+    width: 60ch;
+}
+
+fieldset.name,
+fieldset.contact-info,
+fieldset.password {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-name,
+.last-name,
+.email,
+.phone,
+.new-password,
+.confirm-password {
+display:flex;
+flex-direction: column;
+}
+
+
+
+
