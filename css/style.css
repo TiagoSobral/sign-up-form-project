@@ -103,6 +103,10 @@ form {
     padding: 1rem 0;
 }
 
+form {
+    box-shadow: 0.7rem 0.5rem 0.5rem #4d648042;
+}
+
 fieldset.name,
 fieldset.contact-info,
 fieldset.password {
@@ -160,7 +164,9 @@ input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
-    outline-color: rgb(92, 151, 245);
+    outline: none;
+    border: 1px solid rgb(92, 151, 245);
+    box-shadow: 0.15rem 0.15rem 0.4rem rgb(166, 166, 166);
 }
 
 /* BUTTON SECTION */
