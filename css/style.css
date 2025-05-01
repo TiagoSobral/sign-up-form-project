@@ -70,7 +70,7 @@
     background-color: rgba(207, 227, 250, 0.224);
   }
 
-  form {
+  div.input-section-wrapper {
     background-color: white;
     padding: 1.5rem 0;
   }
@@ -80,7 +80,8 @@
   }
 
   section,
-  form {
+  div.input-section-wrapper,
+  fieldset.create-account {
     padding-left: 3rem;
     margin-bottom: 1.5rem;
   }
@@ -115,7 +116,7 @@ form {
     width: 100%;
 }
 
-form {
+div.input-section-wrapper  {
     box-shadow: 0.7rem 0.5rem 0.5rem #4d648042;
 }
 
@@ -191,7 +192,8 @@ input[type="password"]:focus {
 /* BUTTON SECTION */
 
 .create-account {
-    margin: 2rem 0 1rem;
+    margin: 1rem 0 1rem;
+    padding-top: 0rem;
 }
 
 .log-in {
