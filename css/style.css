@@ -57,6 +57,11 @@
     display: flex;
   }
 
+  header {
+    width: 35%;
+
+  }
+
   main {
     display: flex;
     flex-direction: column;
@@ -137,11 +142,8 @@ margin-right: 5rem;
 /* HEADER STYLING */
 
 header{
-    width: 35%;
-    min-height: 100vh;
-    background: url(../images/DSCF8132.JPG);
+    background-image: url(../images/IMG_4663.JPG);
     background-size: cover;
-    
 }
 
 /* FORM DESCRIPTION */
