@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-Regular.woff2') format('woff2'),
-        url('Montserrat-Regular.woff') format('woff');
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: auto;
@@ -54,29 +54,38 @@
   /* MAIN STYLING  */
   body{
     font-family: "Montserrat",sans-serif;
+    display: flex;
   }
 
   main {
     display: flex;
     flex-direction: column;
-    margin-left: 3rem;
     min-height: 100vh;
+    width: 65%;
     background-color: rgba(207, 227, 250, 0.224);
   }
 
   form {
     background-color: white;
+    padding: 1.5rem 0;
   }
 
   fieldset {
     border-style: none;
-
   }
+
+  section,
+  form {
+    padding-left: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+ 
 
 /* FORM DESCRIPTION */
 
 section {
-    margin-top: 10rem;
+    padding-top: 10rem;
     font-size: 1.3rem;
     font-weight:700;
 }
@@ -99,8 +108,6 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 1.5rem 0; 
-    padding: 1rem 0;
 }
 
 form {
@@ -125,6 +132,16 @@ flex-direction: column;
 width: 26ch;
 margin-bottom: 1rem ;
 margin-right: 5rem;
+}
+
+/* HEADER STYLING */
+
+header{
+    width: 35%;
+    min-height: 100vh;
+    background: url(../images/DSCF8132.JPG);
+    background-size: cover;
+    
 }
 
 /* FORM DESCRIPTION */
