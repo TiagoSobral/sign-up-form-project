@@ -22,3 +22,19 @@ const mobile = document.querySelector("input[type='tel']");
 mobile.setAttribute("placeholder", "xxx-xxx-xxxx");
 mobile.setAttribute("pattern", "[0-9]{3}[ -.][0-9]{3}[ -.][0-9]{4}");
 
+const password = document.querySelector("#user-pass");
+const confirmPassword = document.querySelector("#user-pass-confirm");
+password.setAttribute("pattern", "(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}");
+confirmPassword.setAttribute("pattern", "(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}");
+
+confirmPassword.addEventListener("input", () => {
+    if (confirmPassword.value !== password.value) {
+        confirmPassword.setCustomValidity("Password doesn't match");
+    }
+    else if (confirmPassword.value === password.value) {
+        confirmPassword.setCustomValidity("");
+    } 
+})
+
+// if btn click and its empty preventdefault()
+//match both passwords
