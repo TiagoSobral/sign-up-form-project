@@ -28,4 +28,4 @@ Do not worry about making your project look nice on mobile. Responsive design is
 
 Validating that the password fields match each other requires JavaScript. Using JavaScript to validate forms is covered in a future lesson. For now, just validate each field separately.
 
-<a>git@github.com:TiagoSobral/sign-up-form-project.git<a>
+[Sign up Form Page](git@github.com:TiagoSobral/sign-up-form-project.git)
