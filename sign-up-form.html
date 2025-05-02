@@ -32,6 +32,7 @@
 <body>
     <header>
         <div class="logo-section"><span>ODIN</span></div>
+        <div class="image-source">From Twitter</div>
     </header>
     <main>
         <section>
@@ -51,27 +52,28 @@
                     <fieldset class="name">
                         <div class="first-name">
                             <label for="first-name">First Name</label>
-                            <input type="text" id="first-name" name="user-first-name">
+                            <input type="text" id="first-name" name="user-first-name" autocomplete="given-name">
                         </div>
                         <div class="last-name">
                             <label for="user-last-name">Last Name</label>
-                            <input type="text" id="user-last-name" name="user-last-name">
+                            <input type="text" id="user-last-name" name="user-last-name" autocomplete="family-name">
                         </div>
                     </fieldset>
                     <fieldset class="contact-info">
                         <div class="email">
                             <label for="user-email">Email</label>
-                            <input type="email" id="user-email" name="user-email">
+                            <input type="email" id="user-email" name="user-email" autocomplete="email">
                         </div>
                         <div class="phone">
                             <label for="user-phone">Phone Number</label>
-                            <input type="tel" id="user-phone" name="user-phone">
+                            <input type="tel" id="user-phone" name="user-phone" autocomplete="mobile">
                         </div>
                     </fieldset>
                     <fieldset class="password">
                         <div class="new-password">
                             <label for="user-pass">Password</label>
                             <input type="password" id="user-pass" name="user-pass">
+                            <span></span>
                         </div>
                         <div class="confirm-password">
                             <label for="user-pass-confirm">Confirm Password</label>
