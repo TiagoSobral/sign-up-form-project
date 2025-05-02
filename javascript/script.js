@@ -1,3 +1,8 @@
+const allInput = document.querySelectorAll("input");
+
+for (value of allInput) {
+    value.setAttribute("required","");
+}
 
 const label = document.querySelectorAll("label");
 
@@ -34,7 +39,5 @@ confirmPassword.addEventListener("input", () => {
     else if (confirmPassword.value === password.value) {
         confirmPassword.setCustomValidity("");
     } 
-})
+});
 
-// if btn click and its empty preventdefault()
-//match both passwords
