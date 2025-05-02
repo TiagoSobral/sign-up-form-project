@@ -41,11 +41,11 @@
     display: flex;
   }
 
-  header {
-    font-family: "Norse";
+  header  {
     font-size: 5rem;
     width: 35%;
   }
+
 
   main {
     font-family: "Montserrat",sans-serif;
@@ -85,6 +85,10 @@ header{
 
 /* LOGO & LETTER STYLING */
 
+header .logo-section {
+  font-family: "Norse";
+}
+
 header > div.logo-section {
     width: 100%;
     display: flex;
@@ -96,7 +100,6 @@ header > div.logo-section {
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.34);
 }
-
 
 header span {
     position: relative;
@@ -113,7 +116,20 @@ header span::before {
     left: -5rem;
     bottom: 0.5rem;
 }
- 
+
+/* HEADER IMAGE BOTTOM COMMENT */
+
+header .image-source {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 63%;
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
 
 /* FORM DESCRIPTION */
 
