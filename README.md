@@ -27,3 +27,5 @@ The other variation is the selected input, which should have a blue border and s
 Do not worry about making your project look nice on mobile. Responsive design isn’t covered until later in the curriculum.
 
 Validating that the password fields match each other requires JavaScript. Using JavaScript to validate forms is covered in a future lesson. For now, just validate each field separately.
+
+git@github.com:TiagoSobral/sign-up-form-project.git
