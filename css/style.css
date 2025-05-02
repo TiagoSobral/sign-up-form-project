@@ -90,7 +90,7 @@ header > div.logo-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 12rem;
+    margin-top: 12.8rem;
     padding: 0.5rem 0;
     padding-left: 4rem;
     color: aliceblue;
@@ -98,11 +98,11 @@ header > div.logo-section {
 }
 
 
-span {
+header span {
     position: relative;
 }
 
-span::before {
+header span::before {
     position: absolute;
     content: " ";
     background-image: url(../images/odin-lined.png);
@@ -207,6 +207,21 @@ input[type="password"]:focus {
     outline: none;
     border: 1px solid rgb(92, 151, 245);
     box-shadow: 0.15rem 0.15rem 0.4rem rgb(166, 166, 166);
+}
+
+/* PASSWORD INFO GUIDANCE */
+
+.new-password span {
+  width: 100px;
+  height: 100px;
+}
+
+.new-password span::before {
+  position: absolute;
+  content: "At least one big letter  At least one number  At least 8 characters ";
+  width: 17ch;
+  height: 3rem;
+  font-size: 0.7rem;
 }
 
 /* BUTTON SECTION */
